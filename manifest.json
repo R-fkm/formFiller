@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://tabelog.com/*"],
+      "matches": ["<all_urls>"],
       "js": ["content_script.js"]
     }
   ]

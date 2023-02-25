@@ -1,5 +1,5 @@
-let calendars = document.querySelectorAll(".list-rst__calendar-frame");
-for(let i = 0; i < calendars.length; i++){
-  let e = calendars[i];
-  e.style.display = 'none';
+let form_items = document.querySelectorAll(".form__item");
+for(let i = 0; i < form_items.length; i++){
+  let e = form_items[i];
+  e.style.color = 'red';
 }
